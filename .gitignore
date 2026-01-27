@@ -1,0 +1,83 @@
+###################################
+# Java / Maven / Spring Boot
+###################################
+
+# Diretório de build do Maven
+target/
+
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos temporários do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+###################################
+# Variáveis de ambiente / Segurança
+###################################
+
+# Arquivos de ambiente (NUNCA versionar)
+.env
+.env.*
+*.env
+
+
+###################################
+# Logs e arquivos temporários
+###################################
+
+# Logs
+*.log
+logs/
+
+# Temporários
+tmp/
+temp/
+
+
+###################################
+# IDEs e editores
+###################################
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+
+###################################
+# Sistema Operacional
+###################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+
+###################################
+# Docker (se aplicável)
+###################################
+
+# Override local de docker-compose
+docker-compose.override.yml
