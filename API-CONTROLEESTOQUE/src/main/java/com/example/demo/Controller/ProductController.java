@@ -70,6 +70,5 @@ public class ProductController {
     ResponseEntity<ProductModel> delete(@PathVariable long id) {
         productRepository.deleteById(id);
         return ResponseEntity.noContent().build();
-        
     }
 }
